@@ -27,7 +27,7 @@ client.on('ready', () => {
   console.log(`Users : [ " ${client.users.size} " ]`);
   console.log(`Channels : [ " ${client.channels.size} " ]`);
   console.log('By : '+`${client.users.get("479668224649199617").username}`)
-   client.user.setActivity("System Of MSG|.help",{type: 'WATCHING'})
+   client.user.setActivity("System Of MSG Team|.help",{type: 'WATCHING'})
    client.user.setStatus("dnd")
 });
 
